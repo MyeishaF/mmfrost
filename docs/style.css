@@ -20,14 +20,41 @@ img {width: 45%;}
 img {width: 50%;}
 img {width: 50%;}
 
+	
+#menu {padding:2vw; }
+#menu {padding:2vw; }
 
+/* This means: style the <nav id="menu"> element. */
 
-
-nav ul.menuB {List-style-type: none;
-
+div.button { 
+  border:2px; 
+  border-style:inset;
+  border-color:gray; 
+  padding:2vw; 
+  background-color:oldlace; 
+  color:yellow; 
+  width:10%; 
+  display:inline;
+  border-radius: 20px;
+ }
+/* This means: style ANY element that as an @class set to button, as in */
+/* <li class="button"> or <p class="button"> or <div class="button">. */
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
+.button:hover {opacity: 1}
 
-.button { border:2px; border-style:solid; border-color:blue
- 
-}
+
+
