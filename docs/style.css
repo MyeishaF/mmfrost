@@ -10,15 +10,27 @@ body {
       
       
       
-      
- figure {width: 45%;
+ section.Gallery  {width: 80%;
+ display: flex;
+ justify-content:space-around;
+ padding: 2vw;
+ column-gap:0;}   
+ section.Gallery figure {flex:1;
  background-color: lightgray;
+ padding: 2vw;
  }
-
-
-img {width: 45%;}
-img {width: 50%;}
-img {width: 50%;}
+section.Gallery p.wider{flex:2;
+background-color: aqua;
+padding:2vw;
+margin-left: -5em;
+}
+section.Gallery p.analysis{flex:1;
+background-color: aqua;
+padding:2vw;
+margin-left: -5em;
+}
+img.dahlia {max-width: 500px;
+width: 80%;}
 
 	
 #menu {padding:2vw; }

@@ -6,12 +6,13 @@
     we see a namespace that declares this HTML to be written using XML syntax. That is also preferred for our courses as a neat and orderly code
     with clear syntax. 
     -->
-    <head> <!-- NOT FOR DISPLAY. This is a "meta" area. -->
+    <head>
+        <!-- NOT FOR DISPLAY. This is a "meta" area. -->
         <title>Gallery</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-     
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
         <!--2021-02-02 ebb: The code inside the <head> element is NOT FOR DISPLAY in the web browser, but it holds important information about the website's contents.
     The text inside the <title> element appears in the top tab of a web browser. The <head> is where we will include info about styling the site, too. 
     
@@ -21,69 +22,63 @@
      Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
     -->
     </head>
-    
-    <body> <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        
+
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Hello again, world Part 2!</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some <strong>inline</strong> code to feature some text. 
-            Here is <a href="https://behrend.psu.edu/penn-state-behrend">a link to an external website</a>.</p>
-        <nav 
-            id="menu">
-            <div class="button"><a href="index.html">Home</a></div> 
-            <div class="button"><a href="resume.html">Resume</a></div> 
-            <div class="button"><a href="gallery.html">Gallery</a></div>
-            <div class="button"><a href="essays.html">DIGIT 100 Essays</a></div>
+        <p>Here is some sample HTML to look at. This is a body paragraph with some
+                <strong>inline</strong> code to feature some text. Here is <a
+                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
+            website</a>.</p>
+        <nav id="menu">
+            <div class="button">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="button">
+                <a href="resume.html">Resume</a>
+            </div>
+            <div class="button">
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <div class="button">
+                <a href="essays.html">DIGIT 100 Essays</a>
+            </div>
         </nav>
-        <figure class="Gallery">
-            <img class="photo" src="delia.jpeg"
-                alt="Dahlia Diva in Erie, PA" />
-         <figcaption>Image of one of master gardener and dahlias expert dahlias Larry Cole. September 2020.</figcaption>
-        </figure>
-        <div class="analysis">
-         <p>Dahlias are native to Mexico and South America, and hold their display in reserve for mid- to late summer and early fall. The genus offers incredible diversity of color and form and we offer dozens of varieties every year. Dahlias are perennial but not cold hardy – tubers can overwinter in the ground in Zone 8 or warmer; in colder climates tubers can be dug after frost and easily stored indoors over winter..</p>
-        </div>
-      
-        <figure> <img src= "pics/big%20cac.JPG" alt= "me and a cactus"/>
-            <figcaption>Me and a cactus.</figcaption> 
-        </figure>
-        
-        
-        <figure><img src="pics/Houseleek.webp" alt= "a succulent"/>
-            <figcaption> House Leek.</figcaption>
-        </figure>    
-        
-        
-        <figure><img src= "pics/Ornamental-Echeveria-succulents-in-cultivation.webp" alt= "echeveria"/>
-            <figcaption> Echeveria varient of succulent.</figcaption>
-        </figure>    
-  
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the page.</p>
-        
-        <h2>What are block elements good for?</h2>
-        
-        <ul>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ul>
-        
-        <h2>Starter HTML instructions</h2>
-        
-        <p>Let's replace the old index.html in your GitHub repo with this new one as you're starting to learn HTML. The hardest part of this may be learning how to browse
-        to find where you saved your files in your GitHub repo. You'll get used to this with practice and some organization.</p>
-        <ol>
-            <li>In oXygen, go to File >> Save As, and <b>carefully browse</b> to find your GitHub repo and its <strong>docs/</strong> directory.</li>
-            <li>Save this file inside your docs/ directory as <b>index.html</b>. You should save over any index.html you've already saved there to replace with this one.
-                (Don't capitalize index.html, spelling counts and you need the .html part at the end.)</li>
-            <li>Open your Bash shell (Windows) or Terminal (Mac) at your GitHub repo.</li>
-            <li>Use your git commands now. Check the <em>status</em> of your repo, <em>add</em> your files for staging, <em>commit</em> them with a message, and <em>push</em> them to the repo.</li>
-            <li>Check your GitHub repo on the <q>code view</q> and the web view to see your updates.</li>
-        </ol>
-        
-        <p>For a more detailed view of HTML, look at <a href="index.html">the actual index.html on this introDH-Hub model website</a>. Feel free to work with that code as you're learning HTML.</p>
-        <p>The easiest way we know to create a new page for your site is to save the current one you're working on with a new filename in the same directory. 
-            Open the new file so you can keep working. You'll need to create <a href="innerPage.html">a special kind of relative link to connect the pages</a>, like this.</p>
+        <section class="Gallery">
+            <figure>
+                <img class="dahlia" src="pics/delia.jpeg" alt="Dahlia Diva in Erie, PA" />
+                <figcaption>Image of one of master gardener and dahlias expert dahlias Larry Cole.
+                    September 2020.</figcaption>
+            </figure>
+            <p class="wider"> Dahlias are native to Mexico and South America, and hold their
+                display in reserve for mid- to late summer and early fall. The genus offers
+                incredible diversity of color and form and we offer dozens of varieties every year.
+                Dahlias are perennial but not cold hardy – tubers can overwinter in the ground in
+                Zone 8 or warmer; in colder climates tubers can be dug after frost and easily stored
+                indoors over winter.. </p>
+        </section>
+       
+        <section class="Gallery">
+            <figure>
+                <img src="pics/big%20cac.JPG" alt="me and a cactus" class="dahlia"/>
+                <figcaption>Me and a cactus.</figcaption>
+            </figure>
+            <p class="analysis">
+                <!--add text-->
+            </p>
+        </section>
+        <section class="Gallery">
+            <figure> <img src="pics/Houseleek.webp" alt="a succulent" class="dahlia" />
+                <figcaption>House Leek</figcaption>
+            </figure>
+            <p class="analysis"> add text  </p>
+        </section>
+        <section class="Gallery">
+            <figure> <img src="pics/Ornamental-Echeveria-succulents-in-cultivation.webp" alt="echeveria" class="dahlia"  />
+                <figcaption> Echeveria varient of succulent.</figcaption>
+                
+            </figure>
+            <p class="analysis"> </p>
+        </section>
     </body>
 </html>
