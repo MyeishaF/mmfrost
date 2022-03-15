@@ -58,11 +58,10 @@ div.button {
 .button:hover {background-color: palegoldenrod}
 
 .button:active {
-  background-color: olive;
+  background-color: lemonchiffon;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-
-
-
+figure {width: 55%;
+ background-color: lightgray;
+ }
