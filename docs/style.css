@@ -4,9 +4,36 @@ body {
       font-family: arial, helvetica, sans-serif; 
       padding:15px; 
       line-height:1.4em
+ ;background-image:radial-gradient(circle, lemonchiffon, peachpuff);
+
       }
       
-      
+  
+  
+section.Index
+img.red.JPG
+{width: 60%
+;max-width:100%;
+height:auto;
+  }
+ ul {
+  list-style-type: none;
+ }
+ img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+ img {
+  display: inline-block;
+  margin: 25px 10px; /* Change this to fit all images */
+}
+  img { width: 55%;
+  border: 5px solid #555;
+  float: left;
+  padding: 2vw;
+}
+
+
  section.Resume
 div {width: 100%;
 display: flex;
@@ -25,17 +52,17 @@ background-color: peachpuff
  padding: 2vw;
  }
 section.Gallery p.wider{flex:2;
-background-color: aqua;
+background-color:white;
 padding:2vw;
 margin-left: -5em;
 }
 section.Gallery p.analysis{flex:1;
-background-color: aqua;
+background-color: white;
 padding:2vw;
 margin-left: -5em;
 }
 img.dahlia {max-width: 500px;
-width: 80%;}
+width: 200%;}
 
 	
 #menu {padding:2vw; }
