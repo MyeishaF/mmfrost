@@ -16,16 +16,26 @@ img.red.JPG
 ;max-width:100%;
 height:auto;
   }
+ 
+
  ul {
   list-style-type: none;
- }
+  padding-top:5em;
+text-align: center;
+line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+ 
  img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
  img {
   display: inline-block;
-  margin: 25px 10px; /* Change this to fit all images */
+  margin: 25px 10px;
 }
   img { width: 55%;
   border: 5px solid #555;
