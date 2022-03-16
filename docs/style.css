@@ -7,7 +7,12 @@ body {
       }
       
       
-      
+ section.Resume
+div {width: 100%;
+display: flex;
+padding:5vw;
+background-color: peachpuff
+}
       
       
  section.Gallery  {width: 80%;
