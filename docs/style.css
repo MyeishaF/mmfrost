@@ -60,6 +60,7 @@ background-color: peachpuff
  section.Gallery figure {flex:1;
  background-color: lightgray;
  padding: 2vw;
+ width: 50%;
  }
 section.Gallery p.wider{flex:2;
 background-color:white;
@@ -72,7 +73,7 @@ padding:2vw;
 margin-left: -5em;
 }
 img.dahlia {max-width: 500px;
-width: 100%;}
+width: 60%;}
 
 	
 #menu {padding:2vw; }
