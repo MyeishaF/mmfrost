@@ -29,16 +29,20 @@ line-height: 1.5;
 }
 
  
- img:hover {
+section.Gallery figure img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
- img {
+section.Gallery figure  img {
   display: inline-block;
   margin: 25px 10px;
-}
-  img { width: 55%;
+   width: 55%;
   border: 5px solid #555;
+  float: left;
+  padding: 2vw;
+}
+section.textAnalysis figure img { width: 55%;
+
   float: left;
   padding: 2vw;
 }
@@ -120,3 +124,20 @@ div.button {
 figure {width: 55%;
  background-color: lightgray;
  }
+ 
+/* This is some CSS code specifically for a Text Analysis page on your website. */
+section.textAnalysis  {width: 95%;
+ display: flex;
+ padding: 2vw;
+ column-gap:0;}   
+ 
+ section.textAnalysis figure {flex:1;
+ background-color: lightgray;
+ padding: 2vw;
+ display:flex;
+ flex-direction:column;
+
+ }
+
+section.textAnalysis figure img {max-width: 800px;
+width: 100%;}
