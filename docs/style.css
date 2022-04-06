@@ -126,7 +126,7 @@ figure {width: 55%;
  }
  
 /* This is some CSS code specifically for a Text Analysis page on your website. */
-section.textAnalysis  {width: 95%;
+section.textAnalysis  {width: 200%;
  display: flex;
  padding: 2vw;
  column-gap:0;}   
@@ -139,5 +139,5 @@ section.textAnalysis  {width: 95%;
 
  }
 
-section.textAnalysis figure img {max-width: 800px;
-width: 100%;}
+section.textAnalysis figure img {max-width: 500px;
+width: 80%;}
