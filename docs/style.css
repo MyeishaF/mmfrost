@@ -134,7 +134,7 @@ display:flex;
 
  }
 
-section.textAnalysis figure img {flex:3;
+section.textAnalysis figure img {flex:5;
 width:100%;
 max-width:1000px;
 
