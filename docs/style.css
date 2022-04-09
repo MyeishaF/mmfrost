@@ -3,7 +3,7 @@ body {
       color: #031B3F; 
       font-family: arial, helvetica, sans-serif; 
       padding:15px; 
-      line-height:1.4em
+      line-height:2em
  ;background-image:radial-gradient(circle, lemonchiffon, peachpuff);
 
       }
@@ -41,11 +41,7 @@ section.Gallery figure  img {
   float: left;
   padding: 2vw;
 }
-section.textAnalysis figure img { width: 55%;
 
-  float: left;
-  padding: 2vw;
-}
 
 
  section.Resume
@@ -121,23 +117,28 @@ div.button {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-figure {width: 55%;
+/*figure {width: 55%;
  background-color: lightgray;
- }
+ }*/
  
 /* This is some CSS code specifically for a Text Analysis page on your website. */
-section.textAnalysis  {width: 200%;
+section.textAnalysis  {
+width:100%;
  display: flex;
- padding: 2vw;
- column-gap:0;}   
+ }
  
  section.textAnalysis figure {flex:1;
  background-color: lightgray;
- padding: 2vw;
- display:flex;
+display:flex;
  flex-direction:column;
 
  }
 
-section.textAnalysis figure img {max-width: 500px;
-width: 80%;}
+section.textAnalysis figure img {flex:3;
+width:100%;
+max-width:1000px;
+
+}
+section.textAnalysis figure figcaption {flex:1;
+;}
+
